@@ -2,13 +2,20 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 export const Navbar = () => {
+  const number = 7
   return (
-    <div>Navbar</div>
+    <div className='navbar'>
+      <h1 className='logo'>
+        Fantasy Trip Planner
+      </h1>
+    </div>
   )
 }
 
-const mapStateToProps = (state) => ({})
+export default Navbar
 
-const mapDispatchToProps = {}
+// const mapStateToProps = (state) => ({})
 
-export default connect(mapStateToProps, mapDispatchToProps)(Navbar)
+// const mapDispatchToProps = {}
+
+// export default connect(mapStateToProps, mapDispatchToProps)(Navbar)
