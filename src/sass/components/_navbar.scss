@@ -1,0 +1,13 @@
+.navbar{
+  background-color: $primary;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo{
+  color: $secondary;
+  font-size: 25px;
+  margin-left: 0.5rem;
+}

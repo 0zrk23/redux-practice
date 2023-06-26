@@ -1,0 +1,56 @@
+$gap: 1rem;
+
+// *{
+//   border: 1px solid black;
+// }
+
+.itinerary-container{
+  display: grid;
+  // align-items: center;
+  grid-template-columns: auto;
+  // gap: $gap;
+  padding: $gap;
+
+}
+
+.total{
+  font-size: 20px;
+  margin: $gap 0;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 0 $gap;
+}
+
+.clear {
+  color: $remove-light;
+  border: 1px solid $remove-light;
+}
+
+.clear:hover{
+  color: $remove;
+  border: 1px solid $remove
+}
+
+.reset{
+  color: $reset-light;
+  border: 1px solid $reset-light;
+}
+
+.reset:hover{
+  color: $reset;
+  border: 1px solid $reset;
+}
+
+.total{
+
+}
+
+.btn-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
